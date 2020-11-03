@@ -14,7 +14,7 @@ The project has two 'general' parts:
   - \xhr_requests: has a web page and js file that shows how to use a get and post request
   -
 
-- An Express app inh
+- An Express app
   - This app contains two routes:
     - the first ('/') will send back a json object with {name: 'hi'}
     - the second takes a url parameter as an argument and echos the param.val back in the form of {"message":"Resource updated to: 2"}. This is because the url param in the post method is hardcoded
